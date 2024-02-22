@@ -1,4 +1,4 @@
-
+//teste.
 
 function fator(num){
     var input = require('readline-sync')
