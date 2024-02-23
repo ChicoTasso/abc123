@@ -1,6 +1,8 @@
 
 
 function somar(num){
+    var input = require('readline-sync')
+    var num = parseInt(input.question('Insira um numero'))
     if ( num > 0) {
         let somaPares = 0;
         
@@ -15,7 +17,7 @@ function somar(num){
     }
 }
 
-somar(19)
+somar()
 
 
 
