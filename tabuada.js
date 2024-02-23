@@ -1,7 +1,6 @@
+var input = require('readline-sync')
 
 function multiplicado(num){
-    var input = require('readline-sync')
-    var num = parseInt(input.question('Insira um numero'))
     tabuada = 1
     while ( tabuada <= 10 ) {
         resultado = num * tabuada;
@@ -9,4 +8,10 @@ function multiplicado(num){
         tabuada++;
     }
 }
-multiplicado()
+
+for (let i = 1; i<=3; i++){
+    
+    let num = Number(input.question('Digite um numero'))
+    multiplicado(num)
+
+}
