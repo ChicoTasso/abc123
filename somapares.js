@@ -13,7 +13,7 @@ function somar(num){
     }
     
         
-        console.log("A soma dos números pares de 1 até", num, "é:", somaPares)
+        console.log(`A soma dos números pares de 1 até, ${num}, é:, ${somaPares}`)
     }
 }
 
